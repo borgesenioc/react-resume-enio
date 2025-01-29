@@ -13,7 +13,6 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import profilepic from '../images/enio2024.png';
-import heroImage from '../images/trees-from-below.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -26,6 +25,7 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import heroImage from '../images/trees-from-below.webp';
 import {
   About,
   ContactSection,
@@ -44,7 +44,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Enio Borges',
-  description: "A personal website built by a web developer in the making.",
+  description: 'A personal website built by a web developer in the making.',
 };
 
 /**
@@ -72,11 +72,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-black sm:prose-base lg:prose-lg">
-        I'm a Brazil-based <strong className="text-black">web developer</strong>, currently in transition
-        from SaaS operations to <strong className="text-black">software engineering</strong>.
+        I'm a Brazil-based <strong className="text-black">web developer</strong>, currently in transition from SaaS
+        operations to <strong className="text-black">software engineering</strong>.
       </p>
       <p className="prose-sm text-gray-950 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me practicing <strong className="text-black">Python, Postgres and Graphql</strong>,
+        In my free time, you can catch me practicing{' '}
+        <strong className="text-black">Python, Postgres and Graphql</strong>,
         <strong className="text-black"> jogging</strong>, or exploring trails around{' '}
         <strong className="text-black">Belo Horizonte</strong>.
       </p>
@@ -251,23 +252,34 @@ export const education: TimelineItem[] = [
     date: 'In Progress',
     location: 'TripleTen / Remote',
     title: 'Web Development Bootcamp',
-    content: <p>I'm learning the essential skills to build responsive, dynamic websites and applications 
-      using modern technologies like HTML, CSS, JavaScript, and frameworks</p>,
+    content: (
+      <p>
+        I'm learning the essential skills to build responsive, dynamic websites and applications using modern
+        technologies like HTML, CSS, JavaScript, and frameworks
+      </p>
+    ),
   },
   {
     date: 'November 2024',
     location: 'Codecademy / Remote',
     title: 'Backend Engineering',
-    content: <p>I learned to design, build, and deploy robust server-side applications using tools like Node.js,
-       Express.js, databases (SQL/NoSQL), APIs, and best practices in security, testing, and deployment</p>,
+    content: (
+      <p>
+        I learned to design, build, and deploy robust server-side applications using tools like Node.js, Express.js,
+        databases (SQL/NoSQL), APIs, and best practices in security, testing, and deployment
+      </p>
+    ),
   },
   {
     date: 'December 2012',
     location: 'St Thomas University / Miami',
     title: 'BA Business Management',
-    content: <p>I learned the essential about business and entrepreneurship. I also started a business club about stock trading and 
-      was a student-athlete with the soccer team.
-    </p>,
+    content: (
+      <p>
+        I learned the essential about business and entrepreneurship. I also started a business club about stock trading
+        and was a student-athlete with the soccer team.
+      </p>
+    ),
   },
 ];
 
