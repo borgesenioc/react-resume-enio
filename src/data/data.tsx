@@ -248,16 +248,26 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'In Progress',
+    location: 'TripleTen / Remote',
+    title: 'Web Development Bootcamp',
+    content: <p>I'm learning the essential skills to build responsive, dynamic websites and applications 
+      using modern technologies like HTML, CSS, JavaScript, and frameworks</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'November 2024',
+    location: 'Codecademy / Remote',
+    title: 'Backend Engineering',
+    content: <p>I learned to design, build, and deploy robust server-side applications using tools like Node.js,
+       Express.js, databases (SQL/NoSQL), APIs, and best practices in security, testing, and deployment</p>,
+  },
+  {
+    date: 'December 2012',
+    location: 'St Thomas University / Miami',
+    title: 'BA Business Management',
+    content: <p>I learned the essential about business and entrepreneurship. I also started a business club about stock trading and 
+      was a student-athlete with the soccer team.
+    </p>,
   },
 ];
 
