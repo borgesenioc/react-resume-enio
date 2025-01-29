@@ -72,11 +72,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Brazil-based <strong className="text-stone-100">Web Developer</strong>, currently in a career transition
-        from business operations to <strong className="text-stone-100">backend engineering</strong>.
+        I'm a Brazil-based <strong className="text-stone-100">web developer</strong>, currently in transition
+        from SaaS operations to <strong className="text-stone-100">software engineering</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training my <strong className="text-stone-100">Python, Postgres and Graphql</strong> skills,
+        In my free time, you can catch me practicing <strong className="text-stone-100">Python, Postgres and Graphql</strong>,
         <strong className="text-stone-100"> jogging</strong>, or exploring trails around{' '}
         <strong className="text-stone-100">Belo Horizonte</strong>.
       </p>
