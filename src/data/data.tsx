@@ -71,14 +71,14 @@ export const heroData: Hero = {
   name: `I'm Enio Borges.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Brazil-based <strong className="text-stone-100">web developer</strong>, currently in transition
-        from SaaS operations to <strong className="text-stone-100">software engineering</strong>.
+      <p className="prose-sm text-black sm:prose-base lg:prose-lg">
+        I'm a Brazil-based <strong className="text-black">web developer</strong>, currently in transition
+        from SaaS operations to <strong className="text-black">software engineering</strong>.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me practicing <strong className="text-stone-100">Python, Postgres and Graphql</strong>,
-        <strong className="text-stone-100"> jogging</strong>, or exploring trails around{' '}
-        <strong className="text-stone-100">Belo Horizonte</strong>.
+      <p className="prose-sm text-gray-950 sm:prose-base lg:prose-lg">
+        In my free time, you can catch me practicing <strong className="text-black">Python, Postgres and Graphql</strong>,
+        <strong className="text-black"> jogging</strong>, or exploring trails around{' '}
+        <strong className="text-black">Belo Horizonte</strong>.
       </p>
     </>
   ),
