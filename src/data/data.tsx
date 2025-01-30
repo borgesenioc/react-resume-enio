@@ -68,27 +68,29 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Enio Borges.`,
+  name: `I'm Enio.`,
   description: (
     <>
       <p className="prose-sm text-black sm:prose-base lg:prose-lg">
-        I'm a Brazil-based <strong className="text-black">web developer</strong>, currently in transition from SaaS
-        operations to <strong className="text-black">software engineering</strong>.
+        I'm a SaaS operations specialist transitioning 
+        into <strong className="text-black">software engineering</strong>.
       </p>
       <p className="prose-sm text-gray-950 sm:prose-base lg:prose-lg">
         In my free time, you can catch me practicing{' '}
-        <strong className="text-black">Python, Postgres and Graphql</strong>,
-        <strong className="text-black"> jogging</strong>, or exploring trails around{' '}
+        <strong className="text-black">Python, Postgres, and Graphql</strong>,
+        jogging, or exploring trails around{' '}
         <strong className="text-black">Belo Horizonte</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/resume-enio-2025.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
+      target: '_blank' as const,
+      rel: 'noopener noreferrer' as const,
     },
     {
       href: `#${SectionId.Contact}`,
