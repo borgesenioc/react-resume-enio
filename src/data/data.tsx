@@ -72,7 +72,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-black sm:prose-base lg:prose-lg">
-        I'm a SaaS operations specialist transitioning 
+        I'm a SaaS operations specialist transitioning
         into <strong className="text-black">software engineering</strong>.
       </p>
       <p className="prose-sm text-gray-950 sm:prose-base lg:prose-lg">
@@ -89,8 +89,7 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-      target: '_blank' as const,
-      rel: 'noopener noreferrer' as const,
+      target: '_blank',
     },
     {
       href: `#${SectionId.Contact}`,
@@ -340,27 +339,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'I\'ll reply as soon as a I can.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'enio@enioborges.com',
+      href: 'mailto:enio@enioborges.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Belo Horizonte, Brazil',
+      href: 'https://www.google.com/maps/place/Belo+Horizonte,+State+of+Minas+Gerais/',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@borgesenioc',
+      href: 'https://www.instagram.com/borgesenioc/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'borgesenioc',
+      href: 'https://github.com/borgesenioc',
     },
   ],
 };
