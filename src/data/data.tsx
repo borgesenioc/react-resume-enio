@@ -316,9 +316,9 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Chiara Cokieng',
+      text: 'When we hired Enio, we saw his qualities as a great individual contributor as Research Manager — super sharp and smart with the research, confident and charismatic with the clients, all while being idealistic, realistic, and hardworking with the business. Even so, I\'ve always known that Enio will be my successor as Director of Research. So when I moved to the Product team and Enio courageously and willingly stepped up to leadership and management, I wasn\'t surprised. I would definitely love to work with Enio again in future entrepreneurial adventures. I\'m already excited!',
+      image: 'https://media.licdn.com/dms/image/v2/C5103AQH6SKzkzdqW3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570812235629?e=1743638400&v=beta&t=8EmH1pspyCoUxgwRGvLE-xIw-5SQ6V7zT27XdZYQn8k',
     },
     {
       name: 'Jane Doe',
