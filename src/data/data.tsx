@@ -321,14 +321,9 @@ export const testimonial: TestimonialSection = {
       image: 'https://media.licdn.com/dms/image/v2/C5103AQH6SKzkzdqW3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570812235629?e=1743638400&v=beta&t=8EmH1pspyCoUxgwRGvLE-xIw-5SQ6V7zT27XdZYQn8k',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Sabyasachi Gupta',
+      text: 'Enio has been a pleasure to work with for the 4 years I spent at OnFrontiers! When I joined Enio was just my colleague, however, over a course of time he went on to become my mentor, guide, friend, and a great leader who I looked up to. I was directly reporting to him for three years out of the four years I spent at OnFrontiers. Enio is a seasoned SaaS operations professional who knows how to manage, run and grow a team. His attention to detail, customer awareness, and ability to soak pressure while extracting the best out of his team are what make him a great leader. Amongst other things, he gives freedom to his team members to experiment, make mistakes, and learn from them without ever micro-managing them. This is one of the primary reasons why I enjoyed working with him. Enio would be a great addition to any team that is looking for its next leader!',
+      image: 'https://media.licdn.com/dms/image/v2/D4D03AQFNWiYEycE7Lw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685962416510?e=1743638400&v=beta&t=nLG3ecy-TEy1boKde_wZlISzV0baT6AxL-XOrQs7r3s',
     },
   ],
 };
