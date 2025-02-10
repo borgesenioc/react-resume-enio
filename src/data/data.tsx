@@ -178,9 +178,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
+    title: 'Responsive HTML Website',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://web-project-homeland-mu.vercel.app',
     image: porfolioImage1,
   },
   {
