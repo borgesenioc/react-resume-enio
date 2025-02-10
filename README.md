@@ -20,10 +20,6 @@
 
 </div>
 
-### View a [live demo here.](https://reactresume.com)
-
-#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
-
 ### 🎉 Version 2 is here! New features:
 1. Completely rebuilt with React and full typescript support
 2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
