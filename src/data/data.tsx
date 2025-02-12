@@ -178,15 +178,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Responsive HTML Website',
+    title: 'Project Title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://web-project-homeland-mu.vercel.app',
+    url: 'https://enioborges.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Responsive personal website',
+    description: 'React.js, Yarn and Tailwind CSS',
+    url: 'https://enioborges.com',
     image: porfolioImage2,
   },
   {
@@ -232,9 +232,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Mobile First Website',
+    description: 'As part of the Tripleten Web Development career path',
+    url: 'https://web-project-homeland-mu.vercel.app',
     image: porfolioImage10,
   },
   {
