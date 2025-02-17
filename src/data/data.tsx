@@ -24,7 +24,6 @@ import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -236,13 +235,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'As part of the Tripleten Web Development career path',
     url: 'https://web-project-homeland-mu.vercel.app',
     image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+  }
 ];
 
 /**
