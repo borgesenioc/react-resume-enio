@@ -316,6 +316,11 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
+      name: 'Julie Motlagh',
+      text: 'Whether it was building automated workflows, creating insightful dashboards, or optimizing data for decision-making, Enio was always several steps ahead, ensuring everything ran smoothly and strategically. Beyond his technical prowess, Enio has a gift for building relationships and fostering collaboration.',
+      image: 'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
+    },
+    {
       name: 'Chiara Cokieng',
       text: 'When we hired Enio, we saw his qualities as a great individual contributor as Research Manager — super sharp and smart with the research, confident and charismatic with the clients, all while being idealistic, realistic, and hardworking with the business. Even so, I\'ve always known that Enio will be my successor as Director of Research. So when I moved to the Product team and Enio courageously and willingly stepped up to leadership and management, I wasn\'t surprised. I would definitely love to work with Enio again in future entrepreneurial adventures. I\'m already excited!',
       image: 'https://media.licdn.com/dms/image/v2/C5103AQH6SKzkzdqW3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570812235629?e=1743638400&v=beta&t=8EmH1pspyCoUxgwRGvLE-xIw-5SQ6V7zT27XdZYQn8k',
