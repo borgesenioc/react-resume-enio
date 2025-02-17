@@ -185,9 +185,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'AI-Powered Chatbot for Web Application',
+    description: 'The final version was optimized using HubSpot\'s Breeze AI, while the test version utilized a REST API to integrate HubSpot with OpenAI',
+    url: 'https://onfrontiers.com',
     image: porfolioImage4,
   },
   {
