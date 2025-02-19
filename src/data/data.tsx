@@ -2,7 +2,6 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
@@ -103,11 +102,10 @@ export const aboutData: About = {
    I am transitioning into software engineering, with practical experience in JavaScript, TypeScript, Node, Express, Python, SQL, and GraphQL.`,
   aboutItems: [
     {label: 'Location', text: 'Belo Horizonte, Brazil', Icon: MapIcon},
-    {label: 'Age', text: '36', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
     {label: 'Interests', text: 'Science, sports and nature', Icon: SparklesIcon},
     {label: 'Study', text: 'St Thomas University / Codecademy', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'OnFrontiers', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'OnFrontiers Inc.  (USA/Remote)', Icon: BuildingOffice2Icon},
   ],
 };
 
