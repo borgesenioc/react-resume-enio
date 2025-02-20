@@ -10,9 +10,9 @@ const Footer: FC = memo(() => (
   <div className="relative bg-white px-4 pb-6 pt-12 sm:px-8 sm:pb-8 sm:pt-14">
     <div className="absolute inset-x-0 -top-4 flex justify-center sm:-top-6">
       <a
-        className="rounded-full bg-gray-700 p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
+        className="rounded-full bg-gray-300 p-1 ring-2 ring-orange-500 ring-offset-2 focus:outline-none focus:ring-2 sm:p-2"
         href={`/#${SectionId.Hero}`}>
-        <ChevronUpIcon className="h-6 w-6 text-white bg-gray-700 sm:h-8 sm:w-8" />
+        <ChevronUpIcon className="h-6 w-6 text-black bg-gray-300 sm:h-8 sm:w-8" />
       </a>
     </div>
     <div className="flex flex-col items-center gap-y-6">
