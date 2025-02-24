@@ -5,7 +5,7 @@ import {Skill as SkillType, SkillGroup as SkillGroupType} from '../../../data/da
 export const SkillGroup: FC<PropsWithChildren<{skillGroup: SkillGroupType}>> = memo(({skillGroup}) => {
   const {name, skills} = skillGroup;
   return (
-    <div className="flex flex-col mb-7">
+    <div className="flex flex-col mb-6 mt-4">
       <span className="text-center text-lg font-bold">{name}</span>
       <div className="flex flex-wrap gap-3 mt-5">
         {skills.map((skill, index) => (
