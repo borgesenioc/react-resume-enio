@@ -12,14 +12,14 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import profilepic from '../images/enio2024.png';
-import heroImage from '../images/istcok_watch_white.webp';
+import heroImage from '../images/white-20-to-strong-gray.webp';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/white-20-to-strong-gray.webp';
 import {
   About,
   ContactSection,
