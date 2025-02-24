@@ -32,8 +32,8 @@ interface HeroActionItem {
   text: string;
   primary?: boolean;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
-  target?: '_self' | '_blank' | '_parent' | '_top'; 
-  rel?: 'noopener' | 'noreferrer' | 'nofollow' | 'noopener noreferrer'; 
+  target?: '_self' | '_blank' | '_parent' | '_top';
+  rel?: 'noopener' | 'noreferrer' | 'nofollow' | 'noopener noreferrer';
 }
 
 /**

@@ -66,7 +66,8 @@ const ContactForm: FC = memo(() => {
       />
       <button
         aria-label="Submit contact form"
-        className="w-max rounded-full border-2 border-orange-600 bg-gray-200 px-4 py-2 text-sm font-bold text-gray-700 shadow-md outline-none hover:bg-gray-400 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-gray-700/80"        type="submit">
+        className="w-max rounded-full border-2 border-orange-600 bg-gray-200 px-4 py-2 text-sm font-bold text-gray-700 shadow-md outline-none hover:bg-gray-400 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-gray-700/80"
+        type="submit">
         Send Message
       </button>
     </form>

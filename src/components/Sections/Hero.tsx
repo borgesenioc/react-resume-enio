@@ -38,7 +38,7 @@ const Hero: FC = memo(() => {
                   key={text}
                   rel={rel || (target === '_blank' ? 'noopener noreferrer' : undefined)} // Add rel for security
                   target={target || '_self'} // Ensure target is set correctly
-                  >
+                >
                   {text}
                   {Icon && <Icon className="h-5 w-5 text-gray-800 sm:h-6 sm:w-6" />}
                 </a>

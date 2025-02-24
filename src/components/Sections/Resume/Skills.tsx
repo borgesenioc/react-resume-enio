@@ -21,9 +21,7 @@ SkillGroup.displayName = 'SkillGroup';
 export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
   return (
     <div className="inline-block overflow-hidden rounded-full bg-orange-500">
-      <span className="px-4 py-5 text-lg font-bold text-white">
-        {skill.name}
-      </span>
+      <span className="px-4 py-5 text-lg font-bold text-white">{skill.name}</span>
     </div>
   );
 });
