@@ -17,8 +17,12 @@ const About: FC = memo(() => {
             </div>
           </div>
         )}
-  
-        <div className={classNames('col-span-1 flex flex-col gap-y-8 bg-neutral-200/20 p-4 backdrop-blur rounded-lg shadow-lg sm:block', {'md:col-span-3': !!profileImageSrc})}>
+
+        <div
+          className={classNames(
+            'col-span-1 flex flex-col gap-y-8 bg-neutral-200/20 p-4 backdrop-blur rounded-lg shadow-lg sm:block',
+            {'md:col-span-3': !!profileImageSrc},
+          )}>
           <div className="flex flex-col gap-y-2 mb-8">
             <h2 className="text-2xl font-bold text-black">About me</h2>
             <p className="prose prose-sm text-gray-900 sm:prose-base">{description}</p>

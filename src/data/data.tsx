@@ -12,14 +12,14 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import profilepic from '../images/enio2024.png';
-import heroImage from '../images/istcok_watch_white.webp';
+import testimonialImage from '../images/gray-to-white.webp';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import heroImage from '../images/white-20-to-strong-gray.webp';
 import {
   About,
   ContactSection,
@@ -66,13 +66,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-black sm:prose-base lg:prose-lg">
-        I'm a SaaS operations specialist transitioning
-        into <strong className="text-black">software engineering</strong>.
+        I'm a SaaS operations specialist transitioning into <strong className="text-black">software engineering</strong>
+        .
       </p>
       <p className="prose-sm text-gray-950 sm:prose-base lg:prose-lg">
         In my free time, you can catch me practicing{' '}
-        <strong className="text-black">Python, Postgres and Graphql</strong>,
-        jogging, or exploring trails around{' '}
+        <strong className="text-black">Python, Postgres and Graphql</strong>, jogging, or exploring trails around{' '}
         <strong className="text-black">Belo Horizonte</strong>.
       </p>
     </>
@@ -114,15 +113,16 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Backend development',
     skills: [
       {
-        name: 'Portuguese',
-        level: 10,
+        name: 'Node.js',
       },
       {
-        name: 'English',
-        level: 10,
+        name: 'PostgreSQL',
+      },
+      {
+        name: 'Rust',
       },
     ],
   },
@@ -131,32 +131,34 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 6,
       },
       {
         name: 'Typescript',
-        level: 5,
       },
       {
         name: 'GraphQL',
-        level: 5,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Product Development',
     skills: [
       {
-        name: 'Node.js',
-        level: 7,
+        name: 'Web Applications',
       },
       {
-        name: 'PostgreSQL',
-        level: 5,
+        name: 'Agile',
+      },
+    ],
+  },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'Portuguese',
       },
       {
-        name: 'Rust',
-        level: 4,
+        name: 'English',
       },
     ],
   },
@@ -202,7 +204,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'As part of the Tripleten Web Development career path',
     url: 'https://web-project-homeland-mu.vercel.app',
     image: porfolioImage10,
-  }
+  },
 ];
 
 /**
@@ -285,7 +287,8 @@ export const testimonial: TestimonialSection = {
       and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
       Anyone who has the opportunity to work with him will quickly understand what a true asset he 
       is to any team or organization.`,
-      image: 'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
+      image:
+        'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
     },
     {
       name: 'Chiara Cokieng',
@@ -296,7 +299,8 @@ export const testimonial: TestimonialSection = {
         team and Enio courageously and willingly stepped up to leadership and management, I wasn't 
         surprised. I would definitely love to work with Enio again in future entrepreneurial adventures. 
         I'm already excited!`,
-      image: 'https://media.licdn.com/dms/image/v2/C5103AQH6SKzkzdqW3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570812235629?e=1743638400&v=beta&t=8EmH1pspyCoUxgwRGvLE-xIw-5SQ6V7zT27XdZYQn8k',
+      image:
+        'https://media.licdn.com/dms/image/v2/C5103AQH6SKzkzdqW3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570812235629?e=1743638400&v=beta&t=8EmH1pspyCoUxgwRGvLE-xIw-5SQ6V7zT27XdZYQn8k',
     },
     {
       name: 'Sabyasachi Gupta',
@@ -309,7 +313,8 @@ export const testimonial: TestimonialSection = {
        other things, he gives freedom to his team members to experiment, make mistakes, and learn from 
        them without ever micro-managing them. This is one of the primary reasons why I enjoyed working 
        with him. Enio would be a great addition to any team that is looking for its next leader!`,
-      image: 'https://media.licdn.com/dms/image/v2/D4D03AQFNWiYEycE7Lw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685962416510?e=1743638400&v=beta&t=nLG3ecy-TEy1boKde_wZlISzV0baT6AxL-XOrQs7r3s',
+      image:
+        'https://media.licdn.com/dms/image/v2/D4D03AQFNWiYEycE7Lw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685962416510?e=1743638400&v=beta&t=nLG3ecy-TEy1boKde_wZlISzV0baT6AxL-XOrQs7r3s',
     },
   ],
 };
@@ -320,7 +325,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'I\'ll reply as soon as a I can.',
+  description: "I'll reply as soon as a I can.",
   items: [
     {
       type: ContactType.Email,

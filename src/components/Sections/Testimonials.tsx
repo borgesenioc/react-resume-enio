@@ -77,7 +77,13 @@ const Testimonials: FC = memo(() => {
           parallaxEnabled && 'bg-fixed',
           {'bg-neutral-700': !imageSrc},
         )}
-        style={imageSrc ? {backgroundImage: `url(${resolveSrc}`} : undefined}>
+        style={
+          resolveSrc
+            ? {
+                backgroundImage: `linear-gradient(to bottom, white, #e5e5e5), url(${resolveSrc})`,
+              }
+            : undefined
+        }>
         <div className="z-10 w-full max-w-screen-md px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-100/60 p-6 shadow-lg">
             <div
