@@ -14,9 +14,7 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import profilepic from '../images/enio2024.png';
 import testimonialImage from '../images/gray-to-white.webp';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import heroImage from '../images/white-20-to-strong-gray.webp';
@@ -175,12 +173,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
     title: 'AI-Powered Chatbot for Web Application',
     description: `The final version was optimized using HubSpot's Breeze AI.
     Preliminary versions used a REST API to integrate HubSpot with OpenAI.`,
@@ -188,15 +180,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Ethical LinkedIn Profile Extractor',
+    description: 'A simple Node.js web app that does what a lot of tools out there should be doing: extract public information based on a profile URl without breaking any compliance rules.',
+    url: 'https://linkedin-private-extractor.vercel.app/',
     image: porfolioImage8,
   },
   {
