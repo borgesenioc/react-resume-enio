@@ -13,8 +13,8 @@ const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-white" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-4xl font-bold text-gray">Solutions</h2>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <h2 className="self-center text-3xl font-bold text-gray">Solutions</h2>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-7">
           {portfolioItems.map((item, index) => {
             const {title, image} = item;
             return (
@@ -68,7 +68,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
     <a
       className={classNames(
         'absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300',
-        { 'opacity-0 hover:opacity-80': !mobile },
+        {'opacity-0 hover:opacity-80': !mobile},
         showOverlay && 'opacity-80'
       )}
       href={url}
