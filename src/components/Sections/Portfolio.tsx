@@ -21,12 +21,7 @@ const Portfolio: FC = memo(() => {
               <div className="flex flex-col" key={`${title}-${index}`}>
                 <h3 className="mb-3 mt-2 text-center text-xl font-bold text-gray-800">{title}</h3>
                 <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl h-64 w-full md:w-[480px]">
-                  <Image
-                    alt={title}
-                    className="h-full w-full object-cover"
-                    placeholder="blur"
-                    src={image}
-                  />
+                  <Image alt={title} className="h-full w-full object-cover" placeholder="blur" src={image} />
                   <ItemOverlay item={item} />
                 </div>
               </div>
@@ -51,7 +46,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
       setMobile(true);
     }
   }, []);
-  
+
   useDetectOutsideClick(linkRef, () => setShowOverlay(false));
 
   const handleItemClick = useCallback(
@@ -61,7 +56,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
         setShowOverlay(true);
       }
     },
-    [mobile, showOverlay]
+    [mobile, showOverlay],
   );
 
   return (
@@ -69,13 +64,12 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
       className={classNames(
         'absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300',
         {'opacity-0 hover:opacity-80': !mobile},
-        showOverlay && 'opacity-80'
+        showOverlay && 'opacity-80',
       )}
       href={url}
       onClick={handleItemClick}
       ref={linkRef}
-      target="_blank"
-    >
+      target="_blank">
       <div className="relative h-full w-full p-4">
         <div className="flex h-full w-full flex-col gap-y-1 overflow-y-auto overscroll-contain">
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
