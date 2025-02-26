@@ -13,9 +13,9 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import profilepic from '../images/enio2024.png';
 import testimonialImage from '../images/gray-to-white.webp';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-website-template.png';
+import porfolioImage4 from '../images/portfolio/ai-chatbot-wide.png';
+import porfolioImage8 from '../images/portfolio/linkedin-extractor-wide.png';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import heroImage from '../images/white-20-to-strong-gray.webp';
 import {
