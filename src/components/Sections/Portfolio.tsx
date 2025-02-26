@@ -12,15 +12,15 @@ import Section from '../Layout/Section';
 const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-white" sectionId={SectionId.Portfolio}>
-      <div className="flex flex-col gap-y-8">
+      <div className="flex flex-col gap-y-4">
         <h2 className="self-center text-2xl font-bold text-black">Solutions</h2>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-7">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-8">
           {portfolioItems.map((item, index) => {
             const {title, image} = item;
             return (
               <div className="flex flex-col" key={`${title}-${index}`}>
                 <h3 className="mb-3 mt-2 text-center text-xl font-bold text-gray-800">{title}</h3>
-                <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl h-80">
+                <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl h-60 w-70">
                   <Image
                     alt={title}
                     className="h-full w-full object-cover"
