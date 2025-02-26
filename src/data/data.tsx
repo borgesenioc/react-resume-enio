@@ -173,7 +173,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'AI-Powered Chatbot for Web Application',
+    title: 'AI Chatbot for Web Application',
     description: `The final version was optimized using HubSpot's Breeze AI.
     Preliminary versions used a REST API to integrate HubSpot with OpenAI.`,
     url: 'https://onfrontiers.com',
