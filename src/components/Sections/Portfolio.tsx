@@ -36,15 +36,13 @@ const Portfolio: FC = memo(() => {
 Portfolio.displayName = 'Portfolio';
 export default Portfolio;
 
-const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}}) => {
+const ItemOverlay: FC<{ item: PortfolioItem }> = memo(({ item: { url, description } }) => {
   const [mobile, setMobile] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const linkRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
-    if (isMobile) {
-      setMobile(true);
-    }
+    setMobile(isMobile);
   }, []);
 
   useDetectOutsideClick(linkRef, () => setShowOverlay(false));
@@ -59,19 +57,18 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
     [mobile, showOverlay],
   );
 
+  const overlayClass = mobile
+    ? (showOverlay ? 'opacity-80' : 'opacity-0')
+    : (showOverlay ? 'opacity-80' : 'opacity-0 hover:opacity-80');
+
   return (
     <a
-  className={classNames(
-    'absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300',
-    mobile
-      ? (showOverlay ? 'opacity-80' : 'opacity-0')
-      : (showOverlay ? 'opacity-80' : 'opacity-0 hover:opacity-80')
-  )}
-  href={url}
-  onClick={handleItemClick}
-  ref={linkRef}
-  target="_blank"
->
+      className={`absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300 ${overlayClass}`}
+      href={url}
+      onClick={handleItemClick}
+      ref={linkRef}
+      target="_blank"
+    >
       <div className="relative h-full w-full p-4">
         <div className="flex h-full w-full flex-col gap-y-1 overflow-y-auto overscroll-contain">
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
