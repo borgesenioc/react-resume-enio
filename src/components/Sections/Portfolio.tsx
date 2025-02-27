@@ -11,7 +11,7 @@ import Section from '../Layout/Section';
 const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-white" sectionId={SectionId.Portfolio}>
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
         <h2 className="self-center text-xl font-bold text-black">Solutions</h2>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-2 gap-x-1">
           {portfolioItems.map((item, index) => {
