@@ -57,8 +57,8 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
   );
 
   const overlayClass = mobile
-    ? (showOverlay ? 'opacity-80' : 'opacity-0')
-    : (showOverlay ? 'opacity-80' : 'opacity-0 hover:opacity-80');
+    ? (showOverlay ? 'opacity-90' : 'opacity-0')
+    : (showOverlay ? 'opacity-90' : 'opacity-0 hover:opacity-90');
 
   return (
     <a
@@ -69,8 +69,8 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
       target="_blank"
     >
       <div className="relative h-full w-full p-4">
-        <div className="flex h-full w-full flex-col gap-y-1 overflow-y-auto overscroll-contain">
-          <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
+        <div className="flex h-full w-full items-center justify-center text-center">
+          <p className="text-lg font-bold text-white opacity-300 sm:text-lg">{description}</p>
         </div>
         <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
       </div>
