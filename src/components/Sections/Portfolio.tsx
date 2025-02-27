@@ -61,15 +61,17 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}})
 
   return (
     <a
-      className={classNames(
-        'absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300',
-        {'opacity-0 hover:opacity-80': !mobile},
-        showOverlay && 'opacity-80',
-      )}
-      href={url}
-      onClick={handleItemClick}
-      ref={linkRef}
-      target="_blank">
+  className={classNames(
+    'absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300',
+    mobile
+      ? (showOverlay ? 'opacity-80' : 'opacity-0')
+      : (showOverlay ? 'opacity-80' : 'opacity-0 hover:opacity-80')
+  )}
+  href={url}
+  onClick={handleItemClick}
+  ref={linkRef}
+  target="_blank"
+>
       <div className="relative h-full w-full p-4">
         <div className="flex h-full w-full flex-col gap-y-1 overflow-y-auto overscroll-contain">
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
