@@ -11,14 +11,17 @@ const Portfolio: FC = memo(() => {
         {portfolioItems.map((item, index) => {
           const { title, image, description } = item;
           return (
-            <div className="mb-8" key={`${title}-${index}`}>
-              <div className="flex flex-col md:flex-row gap-8">
-                {/* Left column: Title and Image (stacked on mobile, vertical on desktop) */}
-                <div className="w-full md:w-2/5 flex flex-col">
-                  <h3 className="mb-4 text-xl font-bold text-gray-800 text-center">
-                    {title}
-                  </h3>
-                  <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 h-64">
+            <div className="mb-16" key={`${title}-${index}`}>
+              <div className="grid grid-cols-[2fr_3fr] grid-rows-[10%_90%] gap-x-8 gap-y-4 h-64">
+                {/* Title in column 1, row 1 */}
+                <div className="col-start-1 row-start-1 flex items-center justify-center">
+                  <h3 className="text-xl font-bold text-gray-800">{title}</h3>
+                </div>
+                {/* Empty cell in column 2, row 1 */}
+                <div className="col-start-2 row-start-1" />
+                {/* Image in column 1, row 2 */}
+                <div className="col-start-1 row-start-2">
+                  <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 h-full w-full">
                     <Image
                       alt={title}
                       className="h-full w-full object-cover"
@@ -27,9 +30,9 @@ const Portfolio: FC = memo(() => {
                     />
                   </div>
                 </div>
-                {/* Right column: Description */}
-                <div className="w-full md:w-1/2 flex items-center justify-center">
-                  <div className="p-4 shadow-lg shadow-black/30">
+                {/* Text in column 2, row 2 */}
+                <div className="col-start-2 row-start-2 flex items-center justify-center">
+                  <div className="p-4 shadow-lg shadow-black/30 h-full w-full flex items-center justify-center">
                     <p className="whitespace-pre-line text-base text-gray-800">
                       {description}
                     </p>
