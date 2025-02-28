@@ -17,11 +17,6 @@ const Resume: FC = memo(() => {
             ))}
           </div>
         </ResumeSection>
-        <ResumeSection title="Education">
-          {education.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
-        </ResumeSection>
       </div>
     </Section>
   );
