@@ -63,14 +63,8 @@ export const heroData: Hero = {
   name: `I'm  Enio.`,
   description: (
     <>
-      <p className="prose-sm text-black sm:prose-base lg:prose-lg">
-        I'm a SaaS operations specialist transitioning into <strong className="text-black">software engineering</strong>
-        .
-      </p>
-      <p className="prose-sm text-gray-950 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me practicing{' '}
-        <strong className="text-black">Python, Postgres and Graphql</strong>, jogging, or exploring trails around{' '}
-        <strong className="text-black">Belo Horizonte</strong>.
+      <p className="text-2xl leading-loose text-black sm:text-3xl lg:text-3xl">
+       This website is about how I have helped teams build companies,<br />my <strong className="text-black">character</strong>, and professional skills and goals.
       </p>
     </>
   ),
