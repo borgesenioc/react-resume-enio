@@ -168,8 +168,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Ethical LinkedIn Profile Extractor',
-    description: `This project reflects my drive to delve deeper into engineering. Direct access to LinkedIn’s API is limited to LLCs, 
-      forcing users who want to build prototypes of talent sourcing apps to resort to dubious scraping methods.
+    description: `This project reflects my drive to delve deeper into engineering. Direct access to LinkedIn’s API is limited to LLCs, forcing users who want to build prototypes of talent sourcing apps to resort to dubious scraping methods.
 
       My open source ethical profile extractor pulls public profile data and converts it to CSV for less than 20% of a cent, leveraging free starting funds from Bright Data for prototype-scale scraping.`,
     url: 'https://linkedin-private-extractor.vercel.app/',
