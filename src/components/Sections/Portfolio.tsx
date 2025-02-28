@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { FC, memo } from 'react';
+import {FC, memo} from 'react';
 
-import { portfolioItems, SectionId } from '../../data/data';
+import {portfolioItems, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
@@ -9,7 +9,7 @@ const Portfolio: FC = memo(() => {
     <Section className="bg-white" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col max-w-4xl mx-auto">
         {portfolioItems.map((item, index) => {
-          const { title, image, description } = item;
+          const {title, image, description} = item;
           return (
             <div className="mb-8" key={`${title}-${index}`}>
               <div className="grid grid-cols-1 gap-x-8 gap-y-4 
