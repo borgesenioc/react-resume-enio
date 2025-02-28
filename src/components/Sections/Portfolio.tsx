@@ -15,7 +15,7 @@ const Portfolio: FC = memo(() => {
               <h3 className="mb-4 text-xl font-bold text-gray-800 text-center md:text-left">
                 {title}
               </h3>
-              <div className="flex flex-col md:flex-row gap-4">
+              <div className="flex flex-col md:flex-row gap-8">
                 {/* On smartphones, this will appear below the text.
                     On medium+ screens, it occupies the left side */}
                 <div className="order-2 md:order-1 w-full md:w-2/5">
@@ -30,7 +30,7 @@ const Portfolio: FC = memo(() => {
                 </div>
                 {/* Text box: appears above the image on smartphones, and to the right on larger screens */}
                 <div className="order-1 md:order-2 w-full md:w-1/2 flex items-center justify-center">
-                  <div className="p-4 border border-gray-300 rounded">
+                  <div className="p-4 shadow-lg shadow-black/30">
                     <p className="whitespace-pre-line text-base text-gray-800">{description}</p>
                   </div>
                 </div>
