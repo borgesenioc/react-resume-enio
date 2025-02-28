@@ -1,32 +1,48 @@
-import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
 import Image from 'next/image';
-import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
+import {FC, memo} from 'react';
 
-import {isMobile} from '../../config';
 import {portfolioItems, SectionId} from '../../data/data';
-import {PortfolioItem} from '../../data/dataDef';
-import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-white" sectionId={SectionId.Portfolio}>
-      <div className="flex flex-col">
-        <h2 className="self-center text-xl font-bold text-black">Solutions</h2>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-2 gap-x-1">
-          {portfolioItems.map((item, index) => {
-            const {title, image} = item;
-            return (
-              <div className="flex flex-col" key={`${title}-${index}`}>
-                <h3 className="mb-3 mt-2 text-center text-xl font-bold text-gray-800">{title}</h3>
-                <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl h-64 w-full md:w-[480px]">
-                  <Image alt={title} className="h-full w-full object-cover" placeholder="blur" src={image} />
-                  <ItemOverlay item={item} />
+      <div className="flex flex-col max-w-4xl mx-auto">
+        {portfolioItems.map((item, index) => {
+          const {title, image, description} = item;
+          return (
+            <div className="mb-8" key={`${title}-${index}`}>
+              <div className="grid grid-cols-1 gap-x-8 gap-y-4 
+                              md:grid-cols-[2fr_3fr] md:grid-rows-[auto_auto]">
+                {/* Title: For mobile, row1; for md, placed in col1 row1 */}
+                <div className="order-1 md:col-start-1 md:row-start-1 flex items-center justify-center">
+                  <h3 className="text-xl font-bold text-gray-800 text-center">
+                    {title}
+                  </h3>
+                </div>
+                {/* Text: For mobile, appears after title; for md, in col2 spanning both rows */}
+                <div className="order-2 md:col-start-2 md:row-start-1 md:row-span-2 flex items-center justify-center">
+                  <div className="p-4 shadow-lg shadow-black/30 w-full h-full flex items-center justify-center">
+                    <p className="whitespace-pre-line text-base text-gray-800">
+                      {description}
+                    </p>
+                  </div>
+                </div>
+                {/* Image: For mobile, appears last; for md, in col1 row2 */}
+                <div className="order-3 md:col-start-1 md:row-start-2">
+                  <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 h-64">
+                    <Image
+                      alt={title}
+                      className="h-full w-full object-cover"
+                      placeholder="blur"
+                      src={image}
+                    />
+                  </div>
                 </div>
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </Section>
   );
@@ -34,46 +50,3 @@ const Portfolio: FC = memo(() => {
 
 Portfolio.displayName = 'Portfolio';
 export default Portfolio;
-
-const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, description}}) => {
-  const [mobile, setMobile] = useState(false);
-  const [showOverlay, setShowOverlay] = useState(false);
-  const linkRef = useRef<HTMLAnchorElement>(null);
-
-  useEffect(() => {
-    setMobile(isMobile);
-  }, []);
-
-  useDetectOutsideClick(linkRef, () => setShowOverlay(false));
-
-  const handleItemClick = useCallback(
-    (event: MouseEvent<HTMLElement>) => {
-      if (mobile && !showOverlay) {
-        event.preventDefault();
-        setShowOverlay(true);
-      }
-    },
-    [mobile, showOverlay],
-  );
-
-  const overlayClass = mobile
-    ? (showOverlay ? 'opacity-90' : 'opacity-0')
-    : (showOverlay ? 'opacity-90' : 'opacity-0 hover:opacity-90');
-
-  return (
-    <a
-      className={`absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300 ${overlayClass}`}
-      href={url}
-      onClick={handleItemClick}
-      ref={linkRef}
-      target="_blank"
-    >
-      <div className="relative h-full w-full p-4">
-        <div className="flex h-full w-full items-center justify-center text-center">
-          <p className="text-lg font-bold text-white opacity-300 sm:text-lg">{description}</p>
-        </div>
-        <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
-      </div>
-    </a>
-  );
-});
