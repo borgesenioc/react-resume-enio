@@ -167,6 +167,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Ethical LinkedIn Profile Extractor',
+    description: `This project reflects my drive to delve deeper into engineering. Direct access to LinkedIn’s API is limited to LLCs, 
+      forcing users who want to build prototypes of talent sourcing apps to resort to dubious scraping methods.
+
+      My open source ethical profile extractor pulls public profile data and converts it to CSV for less than 20% of a cent, leveraging free starting funds from Bright Data for prototype-scale scraping.`,
+    url: 'https://linkedin-private-extractor.vercel.app/',
+    image: porfolioImage8,
+  },
+  {
     title: 'Responsive personal website',
     description: 'React.js, Yarn and Tailwind CSS',
     url: 'https://enioborges.com',
@@ -178,13 +187,6 @@ export const portfolioItems: PortfolioItem[] = [
     Preliminary versions used a REST API to integrate HubSpot with OpenAI.`,
     url: 'https://onfrontiers.com',
     image: porfolioImage4,
-  },
-  {
-    title: 'Ethical LinkedIn Profile Extractor',
-    description:
-      'A simple Node.js web app that does what a lot of tools out there should be doing: extract public information based on a profile URl without breaking any compliance rules.',
-    url: 'https://linkedin-private-extractor.vercel.app/',
-    image: porfolioImage8,
   },
   {
     title: 'Mobile First Website',
