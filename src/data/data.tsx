@@ -36,7 +36,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Enio Borges',
-  description: 'A personal website built by a web developer in the making.',
+  description: 'A portfolio website to showcase my goals, my character and my skills.',
 };
 
 /**
