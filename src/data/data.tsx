@@ -114,6 +114,14 @@ export const aboutData: About = {
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Driving Change at OnFrontiers',
+    description: `For the past four years at OnFrontiers, I’ve been part of an exciting journey as we shifted into the billion-dollar government contracting space and quickly became the go-to expert network. 
+    
+    My main role was to reshape our operations in three key areas: automating the service business unit, integrating with low-code platforms like Retool, Syncari, Zapier, and HubSpot, and managing both internal and external databases.`,
+    url: 'https://web-project-homeland-mu.vercel.app',
+    image: porfolioImage10,
+  },
+  {
     title: 'Ethical LinkedIn Profile Extractor',
     description: `This project reflects my drive to delve deeper into engineering. Direct access to LinkedIn’s API is limited to LLCs, forcing users who want to build prototypes of talent sourcing apps to resort to dubious scraping methods.
 
@@ -133,12 +141,6 @@ export const portfolioItems: PortfolioItem[] = [
     Preliminary versions used a REST API to integrate HubSpot with OpenAI.`,
     url: 'https://onfrontiers.com',
     image: porfolioImage4,
-  },
-  {
-    title: 'Mobile First Website',
-    description: 'As part of the Tripleten Web Development career path',
-    url: 'https://web-project-homeland-mu.vercel.app',
-    image: porfolioImage10,
   },
 ];
 
