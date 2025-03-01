@@ -106,7 +106,6 @@ export const aboutData: About = {
     {label: 'Location', text: 'Belo Horizonte, Brazil', Icon: MapIcon},
     {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
     {label: 'Interests', text: 'Science, sports and nature', Icon: SparklesIcon},
-    {label: 'Study', text: 'St Thomas University / Codecademy', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'OnFrontiers Inc.  (USA/Remote)', Icon: BuildingOffice2Icon},
   ],
 };
