@@ -63,9 +63,10 @@ export const heroData: Hero = {
   name: `I'm  Enio.`,
   description: (
     <>
-      <p className="text-2xl leading-loose text-black sm:text-3xl lg:text-3xl">
-       This website is about how I have helped teams build companies,<br />my <strong className="text-black">character</strong>, and professional skills and goals.
+      <p className="mb-4 mt-4 text-2xl text-black sm:text-3xl lg:text-3xl">
+       This page is about how I have helped teams build companies,<br />my <strong className="text-black">character</strong>, skills and goals.
       </p>
+
     </>
   ),
   actions: [
