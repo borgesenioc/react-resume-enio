@@ -89,8 +89,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Experienced global remote operations manager, leading distributed teams across NA, LATAM, EMEA, and APAC.
-   I am transitioning into software engineering, with practical experience in JavaScript, TypeScript, Node, Express, Python, SQL, and GraphQL.`,
+  description: (
+    <>
+      <p>
+        I’m a builder at heart. I use technology and logic to solve business problems that matter.
+      </p>
+      <p>
+        My current focus is helping teams find efficient ways to connect software, natively or via custom APIs, to cut out repetitive tasks. Along the way, I’ve sharpened my skills with AI models, including LLM agents, modern web frameworks, and cloud infrastructures that make solutions scale.
+      </p>
+      <p>
+        Though my roles have changed—from remote operations manager to web developer—my core drive remains the same: leave every system stronger than I found it.
+      </p>
+    </>
+  ),
   aboutItems: [
     {label: 'Location', text: 'Belo Horizonte, Brazil', Icon: MapIcon},
     {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
