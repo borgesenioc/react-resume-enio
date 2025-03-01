@@ -21,13 +21,13 @@ const Hero: FC = memo(() => {
           src={imageSrc}
         />
         <div className="z-10  max-w-screen-lg px-4 lg:px-0">
-          <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-400/10 p-6 text-center shadow-xl backdrop-blur-sm">
-            <h1 className="text-4xl font-bold text-black sm:text-5xl lg:text-7xl">{name}</h1>
+          <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-400/10 p-6 px-10 text-center shadow-xl backdrop-blur-sm">
+            <h1 className="pt-8 text-4xl font-bold text-black sm:text-5xl lg:text-7xl">{name}</h1>
             {description}
             <div className="flex gap-x-4 text-gray-950">
               <Socials />
             </div>
-            <div className="flex w-full justify-center gap-x-4">
+            <div className="flex w-full justify-center gap-x-4 pb-8">
               {actions.map(({href, text, primary, Icon, target, rel}) => (
                 <a
                   className={classNames(

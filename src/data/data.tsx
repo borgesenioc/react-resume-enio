@@ -1,5 +1,4 @@
 import {
-  AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   FlagIcon,
@@ -10,7 +9,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import profilepic from '../images/enio2024.png';
 import testimonialImage from '../images/gray-to-white.webp';
 import porfolioImage4 from '../images/portfolio/ai-chatbot-wide.png';
@@ -63,9 +61,10 @@ export const heroData: Hero = {
   name: `I'm  Enio.`,
   description: (
     <>
-      <p className="text-2xl leading-loose text-black sm:text-3xl lg:text-3xl">
-       This website is about how I have helped teams build companies,<br />my <strong className="text-black">character</strong>, and professional skills and goals.
+      <p className="mb-4 mt-4 text-2xl text-black sm:text-3xl lg:text-3xl">
+       This page is about how I have helped teams build companies,<br />my <strong className="text-black">character</strong>, skills and goals.
       </p>
+
     </>
   ),
   actions: [
@@ -89,13 +88,23 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Experienced global remote operations manager, leading distributed teams across NA, LATAM, EMEA, and APAC.
-   I am transitioning into software engineering, with practical experience in JavaScript, TypeScript, Node, Express, Python, SQL, and GraphQL.`,
+  description: (
+    <>
+      <p>
+        I’m a builder at heart. I use technology and logic to solve business problems that matter.
+      </p>
+      <p>
+        My current focus is helping teams find efficient ways to connect software, natively or via custom APIs, to cut out repetitive tasks. Along the way, I’ve sharpened my skills with AI models, including LLM agents, modern web frameworks, and cloud infrastructures that make solutions scale.
+      </p>
+      <p>
+        Though my roles have changed—from remote operations manager to web developer—my core drive remains the same: leave every system stronger than I found it.
+      </p>
+    </>
+  ),
   aboutItems: [
     {label: 'Location', text: 'Belo Horizonte, Brazil', Icon: MapIcon},
     {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
     {label: 'Interests', text: 'Science, sports and nature', Icon: SparklesIcon},
-    {label: 'Study', text: 'St Thomas University / Codecademy', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'OnFrontiers Inc.  (USA/Remote)', Icon: BuildingOffice2Icon},
   ],
 };
@@ -337,7 +346,6 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/borgesenioc'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/29415860/enio'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/enioborges/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/borgesenioc/'},
 ];
