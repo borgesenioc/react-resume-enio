@@ -23,7 +23,6 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
-  SkillGroup,
   Social,
   TestimonialSection,
   TimelineItem,
@@ -45,7 +44,6 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
-  Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
@@ -109,66 +107,19 @@ export const aboutData: About = {
   ],
 };
 
-/**
- * Skills section
- */
-export const skills: SkillGroup[] = [
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-      },
-      {
-        name: 'PostgreSQL',
-      },
-      {
-        name: 'Rust',
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-      },
-      {
-        name: 'Typescript',
-      },
-      {
-        name: 'GraphQL',
-      },
-    ],
-  },
-  {
-    name: 'Product Development',
-    skills: [
-      {
-        name: 'Web Applications',
-      },
-      {
-        name: 'Agile',
-      },
-    ],
-  },
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'Portuguese',
-      },
-      {
-        name: 'English',
-      },
-    ],
-  },
-];
 
 /**
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Driving Change at OnFrontiers',
+    description: `For the past four years at OnFrontiers, I’ve been part of an exciting journey as we shifted into the billion-dollar government contracting space and quickly became the go-to expert network. 
+    
+    My main role was to reshape our operations in three key areas: automating the service business unit, integrating with low-code platforms like Retool, Syncari, Zapier, and HubSpot, and managing both internal and external databases.`,
+    url: 'https://web-project-homeland-mu.vercel.app',
+    image: porfolioImage10,
+  },
   {
     title: 'Ethical LinkedIn Profile Extractor',
     description: `This project reflects my drive to delve deeper into engineering. Direct access to LinkedIn’s API is limited to LLCs, forcing users who want to build prototypes of talent sourcing apps to resort to dubious scraping methods.
@@ -179,22 +130,19 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Responsive personal website',
-    description: 'React.js, Yarn and Tailwind CSS',
+    description: `New web developers often struggle to showcase their skills in a crowded market, and many portfolio sites miss the mark by not highlighting what recruiters truly care about. 
+
+      With this React template, fresh bootcamp graduates get a simple, customizable solution that breaks away from cookie-cutter designs. It’s built on modern best practices, making it easy to fill in your details and stand out—helping you get noticed by recruiters faster.`,
     url: 'https://enioborges.com',
     image: porfolioImage2,
   },
   {
     title: 'AI Chatbot for Web Application',
-    description: `The final version was optimized using HubSpot's Breeze AI.
-    Preliminary versions used a REST API to integrate HubSpot with OpenAI.`,
+    description: `I built an AI chatbot that leverages the latest prompt engineering best practices with HubSpot’s Breeze AI. In earlier versions, I connected HubSpot to OpenAI’s GPT-3 mini via a REST API. 
+    
+    This project not only set the foundation for a responsive and intelligent chat experience but also helped OnFrontiers eliminate client delays during off-hours—like nights and weekends—while reducing operational overhead to a fraction of previous levels.`,
     url: 'https://onfrontiers.com',
     image: porfolioImage4,
-  },
-  {
-    title: 'Mobile First Website',
-    description: 'As part of the Tripleten Web Development career path',
-    url: 'https://web-project-homeland-mu.vercel.app',
-    image: porfolioImage10,
   },
 ];
 
