@@ -13,10 +13,10 @@ const Portfolio: FC = memo(() => {
           return (
             <div className="mb-8" key={`${title}-${index}`}>
               <div className="grid grid-cols-1 gap-x-8 gap-y-4 
-                              md:grid-cols-[2fr_3fr] md:grid-rows-[auto_auto]">
+                              md:grid-cols-[4fr_5fr] md:grid-rows-[auto_auto]">
                 {/* Title: For mobile, row1; for md, placed in col1 row1 */}
                 <div className="order-1 md:col-start-1 md:row-start-1 flex items-center justify-center">
-                  <h3 className="text-xl font-bold text-gray-800 text-center">
+                  <h3 className="text-2xl font-bold text-gray-800 text-center">
                     {title}
                   </h3>
                 </div>
