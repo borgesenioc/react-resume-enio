@@ -11,10 +11,10 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import profilepic from '../images/enio2024.png';
 import testimonialImage from '../images/gray-to-white.webp';
-import porfolioImage4 from '../images/portfolio/ai-chatbot-wide.png';
-import porfolioImage8 from '../images/portfolio/linkedin-extractor-wide.png';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-website-template.png';
+import porfolioImage4 from '../images/portfolio/ai-chatbot.png';
+import porfolioImage8 from '../images/portfolio/ethical-scraper.png';
+import porfolioImage10 from '../images/portfolio/onfrontiers-home.png';
+import porfolioImage2 from '../images/portfolio/portfolio-website.png';
 import heroImage from '../images/white-20-to-strong-gray.webp';
 import {
   About,
