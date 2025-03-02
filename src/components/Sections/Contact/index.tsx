@@ -28,7 +28,7 @@ const Contact:FC = memo(() => {
   return (
     <Section className="bg-white" sectionId={SectionId.Contact}>
       {/* Use grid with 1 column on mobile and 2 columns on larger screens */}
-      <div key="contact-section" className="mx-auto max-w-4xl grid grid-cols-1 sm:grid-cols-2 gap-14 py-8">
+      <div className="mx-auto max-w-4xl grid grid-cols-1 sm:grid-cols-2 gap-14 py-8" key="contact-section">
         {/* COLUMN 1: Icon + Heading (centered on mobile, right-aligned on desktop) */}
         <div className="flex flex-col items-center sm:items-end text-center sm:text-right space-y-4">
           <EnvelopeIcon className="h-16 w-16 text-gray-800" />
