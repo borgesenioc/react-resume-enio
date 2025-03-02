@@ -56,11 +56,11 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm  Enio.`,
+  name: `Building digital communities`,
   description: (
     <>
       <p className="mb-4 mt-4 text-2xl text-black sm:text-3xl lg:text-3xl">
-       This page is about how I have helped teams build companies,<br />my <strong className="text-black">character</strong>, skills and goals.
+       This page is about how I have helped teams build companies, my <strong className="text-black">character</strong>, skills and goals.
       </p>
 
     </>
