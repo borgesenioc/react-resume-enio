@@ -60,7 +60,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="mb-4 mt-4 text-2xl text-black sm:text-3xl lg:text-3xl">
-       This page is about how I have helped teams build companies, my <strong className="text-black">character</strong>, skills and goals.
+       This page is how I have applied my skills to help  
+       <strong className=" block text-black"> teams build companies</strong>
       </p>
 
     </>
