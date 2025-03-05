@@ -33,15 +33,48 @@ const Portfolio: FC = memo(() => {
                 </div>
                 {/* Image: For mobile, appears last; for md, in col1 row2 */}
                 <div className="order-3 md:col-start-1 md:row-start-2">
-                  <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 h-64">
-                   <Link href={targetUrl} target="_blank" rel="noopener noreferrer">
-                   <Image
-                      alt={title}
-                      className="h-full w-full object-cover"
-                      placeholder="blur"
-                      src={image}
-                    />
-                   </Link>
+                  {/* 'group' class is key for the hover effect */}
+                  <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 h-64 group">
+                    <Link href={targetUrl} target="_blank" rel="noopener noreferrer">
+                      {/* The image is still displayed as normal */}
+                      <Image
+                        alt={title}
+                        className="h-full w-full object-cover cursor-pointer"
+                        placeholder="blur"
+                        src={image}
+                      />
+                      {/* Overlay at 70% black, visible on hover */}
+                      <div
+                        className="
+                          absolute 
+                          inset-0 
+                          bg-black 
+                          bg-opacity-0 
+                          group-hover:bg-opacity-85 
+                          transition 
+                          duration-300 
+                          flex 
+                          items-center 
+                          justify-center
+                        "
+                      >
+                        {/* Hover text appears when bg is visible */}
+                        <span
+                          className="
+                            mx-8  
+                            text-white 
+                            opacity-0 
+                            group-hover:opacity-100 
+                            px-2 
+                            text-center 
+                            text-sm 
+                            md:text-2xl
+                          "
+                        >
+                          Check the Project Blueprint and Live page
+                        </span>
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>
