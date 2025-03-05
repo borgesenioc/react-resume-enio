@@ -59,8 +59,8 @@ export const heroData: Hero = {
   name: `Building digital communities`,
   description: (
     <>
-      <p className="mb-4 mt-4 text-2xl text-black sm:text-3xl lg:text-3xl">
-       This page is how I have applied my skills to help  
+      <p className="mb-4 mt-4 text-3xl text-black sm:text-4xl lg:text-3xl">
+       This page is about how I have applied my skills to help  
        <strong className=" block text-black"> teams build companies</strong>
       </p>
 
