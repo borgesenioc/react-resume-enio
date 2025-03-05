@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import {FC, memo} from 'react';
 
 import {portfolioItems, SectionId} from '../../data/data';
@@ -9,7 +10,9 @@ const Portfolio: FC = memo(() => {
     <Section className="bg-white" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col max-w-4xl mx-auto">
         {portfolioItems.map((item, index) => {
-          const {title, image, description} = item;
+          const {title, image, description, link} = item;
+          // Fallback link:
+          const targetUrl = link || 'http://enioborges.com';
           return (
             <div className="mb-14" key={`${title}-${index}`}>
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 
@@ -31,12 +34,14 @@ const Portfolio: FC = memo(() => {
                 {/* Image: For mobile, appears last; for md, in col1 row2 */}
                 <div className="order-3 md:col-start-1 md:row-start-2">
                   <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 h-64">
-                    <Image
+                   <Link href={targetUrl} target="_blank" rel="noopener noreferrer">
+                   <Image
                       alt={title}
                       className="h-full w-full object-cover"
                       placeholder="blur"
                       src={image}
                     />
+                   </Link>
                   </div>
                 </div>
               </div>

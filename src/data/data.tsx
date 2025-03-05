@@ -119,6 +119,7 @@ export const portfolioItems: PortfolioItem[] = [
     My main role was to reshape our operations in three key areas: automating the service business unit, integrating with low-code platforms like Retool, Syncari, Zapier, and HubSpot, and managing both internal and external databases.`,
     url: 'https://web-project-homeland-mu.vercel.app',
     image: porfolioImage10,
+    link: 'http://onfrontiers.com',
   },
   {
     title: 'Ethical LinkedIn Profile Extractor',
@@ -127,6 +128,7 @@ export const portfolioItems: PortfolioItem[] = [
       My open source ethical profile extractor pulls public profile data and converts it to CSV for less than 20% of a cent, leveraging free starting funds from Bright Data for prototype-scale scraping.`,
     url: 'https://linkedin-private-extractor.vercel.app/',
     image: porfolioImage8,
+    link: 'https://www.notion.so/Ethical-LinkedIn-Profile-Extractor-1a271944a43b80698fc7ea62070d24fd',
   },
   {
     title: 'Responsive personal website',
@@ -135,6 +137,7 @@ export const portfolioItems: PortfolioItem[] = [
       With this React template, fresh bootcamp graduates get a simple, customizable solution that breaks away from cookie-cutter designs. It’s built on modern best practices, making it easy to fill in your details and stand out—helping you get noticed by recruiters faster.`,
     url: 'https://enioborges.com',
     image: porfolioImage2,
+    link: 'http://onfrontiers.com',
   },
   {
     title: 'AI Chatbot for Web Application',
@@ -143,6 +146,7 @@ export const portfolioItems: PortfolioItem[] = [
     This project not only set the foundation for a responsive and intelligent chat experience but also helped OnFrontiers eliminate client delays during off-hours—like nights and weekends—while reducing operational overhead to a fraction of previous levels.`,
     url: 'https://onfrontiers.com',
     image: porfolioImage4,
+    link: 'http://onfrontiers.com',
   },
 ];
 
