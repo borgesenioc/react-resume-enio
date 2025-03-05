@@ -35,7 +35,7 @@ const Portfolio: FC = memo(() => {
                 <div className="order-3 md:col-start-1 md:row-start-2">
                   {/* 'group' class is key for the hover effect */}
                   <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 h-64 group">
-                    <Link href={targetUrl} target="_blank" rel="noopener noreferrer">
+                    <Link href={targetUrl} rel="noopener noreferrer" target="_blank">
                       {/* The image is still displayed as normal */}
                       <Image
                         alt={title}
