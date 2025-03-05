@@ -56,13 +56,12 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Building digital communities`,
+  name: `Building Vibrant Networks`,
   description: (
     <>
       <p className="mb-4 mt-4 text-3xl text-black sm:text-4xl lg:text-3xl">
-       This page is about how I have applied my skills to help  
-       <strong className=" block text-black"> teams build companies</strong>
-      </p>
+        Here’s a quick overview of how I’ve helped companies create <strong className="text-black">digital products</strong> that power networks of <strong className="text-black">experts</strong> and <strong className="text-black">entrepreneurs</strong>.
+        </p>
 
     </>
   ),
