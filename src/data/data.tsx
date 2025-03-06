@@ -59,8 +59,8 @@ export const heroData: Hero = {
   name: `Building Vibrant Networks`,
   description: (
     <>
-      <p className="mb-4 mt-4 text-xl text-black sm:text-2xl lg:text-2xl">
-        I’m expanding my skill set into <strong className="text-black">engineering</strong> from a background of building digital products that power networks of <strong className="text-black">experts and entrepreneurs</strong>. 
+      <p className="mb-4 mt-4 mx-4 text-xl text-black sm:text-2xl lg:text-2xl">
+        I transitioned into <strong className="text-black">web development</strong> from a background of building products that power <strong className="text-black">professional networks</strong>. 
          <span className="block mb-4 mt-4 text-xl text-black sm:text-2xl lg:text-2xl">
         This page highlights my growth and showcases my evolving <strong>portfolio</strong>.</span>
         </p>
