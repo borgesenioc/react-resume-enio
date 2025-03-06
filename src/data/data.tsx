@@ -115,12 +115,12 @@ export const aboutData: About = {
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Driving Change at OnFrontiers',
-    description: `For the past four years at OnFrontiers, I’ve been part of an exciting journey as we shifted into the billion-dollar government contracting space and quickly became the go-to expert network. 
+    description: `At OnFrontiers, I’ve been part of an exciting journey as we shifted into the billion-dollar government contracting space and became the go-to expert network. My main role was to reshape our operations by automating the service business unit and integrate external platforms.
     
-    My main role was to reshape our operations in three key areas: automating the service business unit, integrating with low-code platforms like Retool, Syncari, Zapier, and HubSpot, and managing both internal and external databases.`,
+    This project outlines how I used Retool and a bit of JavaScript to integrate AI agents to increase workflow efficiency.`,
     url: 'https://web-project-homeland-mu.vercel.app',
     image: porfolioImage10,
-    link: 'http://onfrontiers.com',
+    link: 'https://www.notion.so/Driving-Change-with-Retool-OpenAI-Prototypes-1ae71944a43b8061a789de977c28ddae',
   },
   {
     title: 'Ethical LinkedIn Profile Extractor',
