@@ -120,7 +120,7 @@ export const portfolioItems: PortfolioItem[] = [
     This project outlines how I used Retool and a bit of JavaScript to integrate AI agents to increase workflow efficiency.`,
     url: 'https://web-project-homeland-mu.vercel.app',
     image: porfolioImage10,
-    link: 'https://www.notion.so/Driving-Change-with-Retool-OpenAI-Prototypes-1ae71944a43b8061a789de977c28ddae',
+    link: 'https://flax-epoch-9a3.notion.site/Driving-Change-with-Retool-OpenAI-Prototypes-at-OnFrontiers-1ae71944a43b8061a789de977c28ddae',
   },
   {
     title: 'Ethical LinkedIn Profile Extractor',
