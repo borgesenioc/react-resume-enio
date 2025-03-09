@@ -123,7 +123,7 @@ const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
   ({testimonial: {text, name, image}, isActive}) => (
     <div
       className={classNames(
-        'flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-4 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
+        'whitespace-pre-line flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-3 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
         isActive ? 'opacity-100' : 'opacity-0',
       )}>
       {image ? (
@@ -135,7 +135,7 @@ const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
         <QuoteIcon className="h-5 w-5 shrink-0 text-black sm:h-8 sm:w-8" />
       )}
       <div className="flex flex-col gap-y-4">
-        <p className="prose prose-sm font-medium italic text-black sm:prose-base">{text}</p>
+        <p className="whitespace-pre-line prose prose-sm font-medium italic text-black sm:prose-base">{text}</p>
         <p className="text-xs font-bold text-gray-900 sm:text-sm md:text-base lg:text-lg">-- {name}</p>
       </div>
     </div>

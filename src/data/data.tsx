@@ -222,28 +222,27 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Yohan Bobcombe',
-      text: `Whether it was building automated workflows, creating insightful dashboards, 
-      or optimizing data for decision-making, Enio was always several steps ahead, ensuring 
-      everything ran smoothly and strategically. Beyond his technical prowess, Enio has a gift 
-      for building relationships and fostering collaboration. Enio isn't just exceptional at 
-      what he does—he elevates everyone around him. His strategic thinking, operational expertise, 
-      and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
-      Anyone who has the opportunity to work with him will quickly understand what a true asset he 
-      is to any team or organization.`,
+      name: `Yohan Bobcombe
+      Customer Operations and CX Leader | ex-Lyft, Sonder, Deloitte
+      Strategic Advisor, MDisrupt`,
+      text: `For any team looking for a highly technical, business-savvy leader who thrives at the intersection of strategy,operations, and technology, Enio is your person. I have no doubt he will make a tremendous impact wherever he goes next.
+       
+       Having worked closely with Enio at OnFrontiers, I can confidently say he is one of the most exceptional operators and leaders I’ve had the pleasure of working with. Enio possesses a deep technical acumen that goes far beyond traditional operations—he understands system architecture at a level that enables him to not just integrate tools, but to design and build scalable, high-impact solutions from the ground up. 
+       
+       He is a problem solver in the truest sense—he doesn’t just identify challenges; he proactively finds solutions, builds scalable systems, and ensures seamless execution. His deep understanding of technical architecture, automation, and integrations made him instrumental in optimizing our operations. Whether it was streamlining workflows, implementing cost-efficient solutions, or bridging the gap between operations and product, he consistently delivered results that improved efficiency and bottom-line impact.
+       `,
       image:
-        'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
+        'https://media.licdn.com/dms/image/v2/D5603AQH-aKgELzy8pQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707170313673?e=1747267200&v=beta&t=A5GvvriSZ60QQ4oOUhLOwF49FQwgd2R_sY_eWmCoLUU',
     },
     {
-      name: 'Julie Motlagh',
-      text: `Whether it was building automated workflows, creating insightful dashboards, 
-      or optimizing data for decision-making, Enio was always several steps ahead, ensuring 
-      everything ran smoothly and strategically. Beyond his technical prowess, Enio has a gift 
-      for building relationships and fostering collaboration. Enio isn't just exceptional at 
-      what he does—he elevates everyone around him. His strategic thinking, operational expertise, 
-      and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
-      Anyone who has the opportunity to work with him will quickly understand what a true asset he 
-      is to any team or organization.`,
+      name: `Julie Motlagh
+      Professional Services Executive | Customer Success
+      Global Head of Customer Success, OnFrontiers`,
+      text: `Whether it was building automated workflows, creating insightful dashboards, or optimizing data for decision-making, Enio was always several steps ahead, ensuring everything ran smoothly and strategically. 
+      
+      Beyond his technical prowess, Enio has a gift for building relationships and fostering collaboration. Enio isn't just exceptional at what he does—he elevates everyone around him. His strategic thinking, operational expertise, and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
+      
+      Anyone who has the opportunity to work with him will quickly understand what a true asset he is to any team or organization.`,
       image:
         'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
     },
