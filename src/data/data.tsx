@@ -223,6 +223,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: `Yohan Bobcombe
+      
       Customer Operations and CX Leader | ex-Lyft, Sonder, Deloitte
       Strategic Advisor, MDisrupt`,
       text: `For any team looking for a highly technical, business-savvy leader who thrives at the intersection of strategy,operations, and technology, Enio is your person. I have no doubt he will make a tremendous impact wherever he goes next.
@@ -236,6 +237,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: `Julie Motlagh
+
       Professional Services Executive | Customer Success
       Global Head of Customer Success, OnFrontiers`,
       text: `Whether it was building automated workflows, creating insightful dashboards, or optimizing data for decision-making, Enio was always several steps ahead, ensuring everything ran smoothly and strategically. 
@@ -247,28 +249,28 @@ export const testimonial: TestimonialSection = {
         'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
     },
     {
-      name: 'Chiara Cokieng',
-      text: `When we hired Enio, we saw his qualities as a great individual contributor as Research 
-      Manager — super sharp and smart with the research, confident and charismatic with the clients,
-       all while being idealistic, realistic, and hardworking with the business. Even so, I've always
-        known that Enio will be my successor as Director of Research. So when I moved to the Product 
-        team and Enio courageously and willingly stepped up to leadership and management, I wasn't 
-        surprised. I would definitely love to work with Enio again in future entrepreneurial adventures. 
-        I'm already excited!`,
+      name: `Chiara Cokieng
+
+      LinkedIn Influencer, Operations leader and People manager
+      Founder & Coach, Brave New Path`,
+      text: `When we hired Enio, we saw his qualities as a great individual contributor as Research Manager — super sharp and smart with the research, confident and charismatic with the clients,all while being idealistic, realistic, and hardworking with the business. 
+      
+      Even so, I've always known that Enio will be my successor as Director of Research. So when I moved to the Product team and Enio courageously and willingly stepped up to leadership and management, I wasn't surprised. 
+        
+      I would definitely love to work with Enio again in future entrepreneurial adventures. I'm already excited!`,
       image:
         'https://media.licdn.com/dms/image/v2/C5103AQH6SKzkzdqW3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570812235629?e=1743638400&v=beta&t=8EmH1pspyCoUxgwRGvLE-xIw-5SQ6V7zT27XdZYQn8k',
     },
     {
-      name: 'Sabyasachi Gupta',
-      text: `Enio has been a pleasure to work with for the 4 years I spent at OnFrontiers! When I joined 
-      Enio was just my colleague, however, over a course of time he went on to become my mentor, guide, 
-      friend, and a great leader who I looked up to. I was directly reporting to him for three years out
-       of the four years I spent at OnFrontiers. Enio is a seasoned SaaS operations professional who knows 
-       how to manage, run and grow a team. His attention to detail, customer awareness, and ability to 
-       soak pressure while extracting the best out of his team are what make him a great leader. Amongst 
-       other things, he gives freedom to his team members to experiment, make mistakes, and learn from 
-       them without ever micro-managing them. This is one of the primary reasons why I enjoyed working 
-       with him. Enio would be a great addition to any team that is looking for its next leader!`,
+      name: `Sabyasachi Gupta
+      
+      Customer Experience & Success | Account Management Expert
+      Client Success Manager, Bazaarvoice`,
+      text: `Enio has been a pleasure to work with for the 4 years I spent at OnFrontiers! When I joined Enio was just my colleague, however, over a course of time he went on to become my mentor, guide, friend, and a great leader who I looked up to. 
+      
+      I was directly reporting to him for three years out of the four years I spent at OnFrontiers. Enio is a seasoned SaaS operations professional who knows how to manage, run and grow a team. His attention to detail, customer awareness, and ability to soak pressure while extracting the best out of his team are what make him a great leader. 
+      
+      Amongst other things, he gives freedom to his team members to experiment, make mistakes, and learn from them without ever micro-managing them. This is one of the primary reasons why I enjoyed working with him. Enio would be a great addition to any team that is looking for its next leader!`,
       image:
         'https://media.licdn.com/dms/image/v2/D4D03AQFNWiYEycE7Lw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685962416510?e=1743638400&v=beta&t=nLG3ecy-TEy1boKde_wZlISzV0baT6AxL-XOrQs7r3s',
     },
