@@ -222,6 +222,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
+      name: 'Yohan Bobcombe',
+      text: `Whether it was building automated workflows, creating insightful dashboards, 
+      or optimizing data for decision-making, Enio was always several steps ahead, ensuring 
+      everything ran smoothly and strategically. Beyond his technical prowess, Enio has a gift 
+      for building relationships and fostering collaboration. Enio isn't just exceptional at 
+      what he does—he elevates everyone around him. His strategic thinking, operational expertise, 
+      and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
+      Anyone who has the opportunity to work with him will quickly understand what a true asset he 
+      is to any team or organization.`,
+      image:
+        'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
+    },
+    {
       name: 'Julie Motlagh',
       text: `Whether it was building automated workflows, creating insightful dashboards, 
       or optimizing data for decision-making, Enio was always several steps ahead, ensuring 
