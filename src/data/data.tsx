@@ -1,10 +1,4 @@
-import {
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
+import {ArrowDownTrayIcon, BuildingOffice2Icon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -60,10 +54,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="mb-4 mt-4 mx-4 text-xl text-black sm:text-2xl lg:text-2xl">
-        I transitioned into <strong className="text-black">web development</strong> from a background of building products that power <strong className="text-black">professional networks</strong>. 
-         <span className="block mb-4 mt-4 text-xl text-black sm:text-2xl lg:text-2xl">
-        This page highlights my growth and showcases my evolving <strong>portfolio</strong>.</span>
-        </p>
+        I transitioned into <strong className="text-black">web development</strong> from a background of building
+        products that power <strong className="text-black">professional networks</strong>.
+        <span className="block mb-4 mt-4 text-xl text-black sm:text-2xl lg:text-2xl">
+          This page highlights my growth and showcases my evolving <strong>portfolio</strong>.
+        </span>
+      </p>
     </>
   ),
   actions: [
@@ -89,14 +85,15 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
+      <p>I’m a builder at heart. I use technology and logic to solve business problems that matter.</p>
       <p>
-        I’m a builder at heart. I use technology and logic to solve business problems that matter.
+        My current focus is helping teams find efficient ways to connect software, natively or via custom APIs, to cut
+        out repetitive tasks. Along the way, I’ve sharpened my skills with AI models, including LLM agents, modern web
+        frameworks, and cloud infrastructures that make solutions scale.
       </p>
       <p>
-        My current focus is helping teams find efficient ways to connect software, natively or via custom APIs, to cut out repetitive tasks. Along the way, I’ve sharpened my skills with AI models, including LLM agents, modern web frameworks, and cloud infrastructures that make solutions scale.
-      </p>
-      <p>
-        Though my roles have changed—from remote operations manager to web developer—my core drive remains the same: leave every system stronger than I found it.
+        Though my roles have changed—from remote operations manager to web developer—my core drive remains the same:
+        leave every system stronger than I found it.
       </p>
     </>
   ),
@@ -107,7 +104,6 @@ export const aboutData: About = {
     {label: 'Employment', text: 'OnFrontiers Inc.  (USA/Remote)', Icon: BuildingOffice2Icon},
   ],
 };
-
 
 /**
  * Portfolio section
@@ -228,9 +224,9 @@ export const testimonial: TestimonialSection = {
       Strategic Advisor, MDisrupt`,
       text: `For any team looking for a highly technical, business-savvy leader who thrives at the intersection of strategy,operations, and technology, Enio is your person. I have no doubt he will make a tremendous impact wherever he goes next.
        
-       Having worked closely with Enio at OnFrontiers, I can confidently say he is one of the most exceptional operators and leaders I’ve had the pleasure of working with. Enio possesses a deep technical acumen that goes far beyond traditional operations—he understands system architecture at a level that enables him to not just integrate tools, but to design and build scalable, high-impact solutions from the ground up. 
+       Enio possesses a deep technical acumen that goes far beyond traditional operations—he understands system architecture at a level that enables him to not just integrate tools, but to design and build scalable, high-impact solutions from the ground up. 
        
-       He is a problem solver in the truest sense—he doesn’t just identify challenges; he proactively finds solutions, builds scalable systems, and ensures seamless execution. His deep understanding of technical architecture, automation, and integrations made him instrumental in optimizing our operations. Whether it was streamlining workflows, implementing cost-efficient solutions, or bridging the gap between operations and product, he consistently delivered results that improved efficiency and bottom-line impact.
+       His deep understanding of technical architecture, automation, and integrations made him instrumental in optimizing our operations. Whether it was streamlining workflows, implementing cost-efficient solutions, or bridging the gap between operations and product, he consistently delivered results that improved efficiency and bottom-line impact.
        `,
       image:
         'https://media.licdn.com/dms/image/v2/D5603AQH-aKgELzy8pQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707170313673?e=1747267200&v=beta&t=A5GvvriSZ60QQ4oOUhLOwF49FQwgd2R_sY_eWmCoLUU',
