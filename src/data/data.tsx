@@ -5,10 +5,10 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import profilepic from '../images/enio2024.png';
 import testimonialImage from '../images/gray-to-white.webp';
-import porfolioImage4 from '../images/portfolio/ai-chatbot.png';
-import porfolioImage8 from '../images/portfolio/ethical-scraper.png';
+/** import porfolioImage4 from '../images/portfolio/ai-chatbot.png'; */
+import porfolioImage8 from '../images/portfolio/ethical-extractor.png';
 import porfolioImage10 from '../images/portfolio/onfrontiers-home.png';
-import porfolioImage2 from '../images/portfolio/portfolio-website.png';
+/** import porfolioImage2 from '../images/portfolio/portfolio-website.png'; */
 import heroImage from '../images/white-20-to-strong-gray.webp';
 import {
   About,
@@ -110,8 +110,8 @@ export const aboutData: About = {
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Driving Change at OnFrontiers',
-    description: `At OnFrontiers, I’ve been part of an exciting journey as we shifted into the billion-dollar government contracting space and became the go-to expert network. My main role was to reshape our operations by automating the service business unit and integrate external platforms.
+    title: 'AI Complex Demands Analyzer',
+    description: `At OnFrontiers, I’ve been part of an exciting journey as we shifted into the billion-dollar government contracting space and became the go-to expert network. My main role was to reshape our operations by automating the service business unit and integrating external platforms.
     
     This project outlines how I used Retool and a bit of JavaScript to integrate AI agents to increase workflow efficiency.`,
     url: 'https://web-project-homeland-mu.vercel.app',
@@ -127,6 +127,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage8,
     link: 'https://www.notion.so/Ethical-LinkedIn-Profile-Extractor-1a271944a43b80698fc7ea62070d24fd',
   },
+  /**
   {
     title: 'Responsive personal website',
     description: `New web developers often struggle to showcase their skills in a crowded market, and many portfolio sites miss the mark by not highlighting what recruiters truly care about. 
@@ -145,6 +146,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
     link: 'http://onfrontiers.com',
   },
+   */
 ];
 
 /**
