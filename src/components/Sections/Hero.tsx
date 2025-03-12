@@ -12,7 +12,7 @@ const Hero: FC = memo(() => {
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
-      <div className="relative flex min-h-screen w-full flex-col items-center justify-center pt-16 sm:pt-20">
+      <div className="relative flex min-h-screen w-full flex-col items-center justify-center">
         <Image
           alt={`${name}-image`}
           className="absolute z-0 h-full w-full object-cover"
