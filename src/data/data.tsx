@@ -85,16 +85,28 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      <p>I’m a builder at heart. I use technology and logic to solve business problems that matter.</p>
       <p>
-        My current focus is helping teams find efficient ways to connect software, natively or via custom APIs, to cut
-        out repetitive tasks. Along the way, I’ve sharpened my skills with AI models, including LLM agents, modern web
-        frameworks, and cloud infrastructures that make solutions scale.
+        I use technology to create solutions to business issues so founders don't have to. That is why I like to define
+        myself as a builder.
       </p>
-      <p>
-        Though my roles have changed—from remote operations manager to web developer—my core drive remains the same:
-        leave every system stronger than I found it.
-      </p>
+      <p>What I do:</p>
+      <ul>
+        <li>Connect software (native integrations or custom APIs) to ditch repetitive tasks.</li>
+        <li>Maximize efficiency; I've helped teams triple productivity without extra hires.</li>
+        <li>Navigate tough business moments: that's when ops and cost efficiency become BFFs.</li>
+        <li>Use AI and cloud tech to keep operations running smoothly at scale.</li>
+        <li>Guide lean engineering teams to build exactly what matters.</li>
+      </ul>
+      <p>Where I've done it:</p>
+      <ul>
+        <li>
+          Managed teams and projects remotely across Europe and the US, working comfortably in most European and all
+          U.S. timezones.
+        </li>
+        <li>
+          From startups to web apps, I've successfully steered projects through the good, the bad, and the tricky.
+        </li>
+      </ul>
     </>
   ),
   aboutItems: [
@@ -281,7 +293,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: "I'll reply as soon as a I can.",
+  description: "I'll reply.",
   items: [
     {
       type: ContactType.Email,
