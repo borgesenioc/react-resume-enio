@@ -50,12 +50,13 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Building Vibrant Networks`,
+  name: `Building Global Solutions`,
   description: (
     <>
       <p className="mb-4 mt-4 mx-4 text-xl text-black sm:text-2xl lg:text-2xl">
-        I transitioned into <strong className="text-black">web development</strong> from a background of building
-        products that power <strong className="text-black">professional networks</strong>.
+        I lead remote <strong className="text-black">product development</strong> and{' '}
+        <strong className="text-black">operations</strong>, building solutions that drive meaninful impact for{' '}
+        <strong className="text-black">global clients</strong>.
         <span className="block mb-4 mt-4 text-xl text-black sm:text-2xl lg:text-2xl">
           This page highlights my growth and showcases my evolving <strong>portfolio</strong>.
         </span>
@@ -64,7 +65,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume-enio-2025.pdf',
+      href: './assets/jl_Enio-Borges_Operations-Mar-2025.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
