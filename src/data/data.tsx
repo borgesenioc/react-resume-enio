@@ -27,7 +27,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Enio Borges',
-  description: 'A portfolio website to showcase my goals, my character and my skills.',
+  description: 'A portfolio website to showcase my goals, my character, and my skills.',
 };
 
 /**
@@ -55,7 +55,7 @@ export const heroData: Hero = {
     <>
       <p className="mb-4 mt-4 mx-4 text-xl text-black sm:text-2xl lg:text-2xl">
         I lead remote <strong className="text-black">product development</strong> and{' '}
-        <strong className="text-black">operations</strong>, building solutions that drive meaninful impact for{' '}
+        <strong className="text-black">operations</strong>, building solutions that drive meaningful impact for{' '}
         <strong className="text-black">global clients</strong>.
         <span className="block mb-4 mt-4 text-xl text-black sm:text-2xl lg:text-2xl">
           This page highlights my growth and showcases my evolving <strong>portfolio</strong>.
@@ -94,7 +94,7 @@ export const aboutData: About = {
       <ul>
         <li>Connect software (native integrations or custom APIs) to ditch repetitive tasks.</li>
         <li>Maximize efficiency; I've helped teams triple productivity without extra hires.</li>
-        <li>Navigate tough business moments: that's when ops and cost efficiency become BFFs.</li>
+        <li>Navigate tough business moments: when ops and cost efficiency become BFFs.</li>
         <li>Use AI and cloud tech to keep operations running smoothly at scale.</li>
         <li>Guide lean engineering teams to build exactly what matters.</li>
       </ul>
@@ -194,7 +194,7 @@ export const education: TimelineItem[] = [
     title: 'BA Business Management',
     content: (
       <p>
-        I learned the essential about business and entrepreneurship. I also started a business club about stock trading
+        I learned the essentials of business and entrepreneurship. I also started a business club about stock trading
         and was a student-athlete with the soccer team.
       </p>
     ),
@@ -237,7 +237,7 @@ export const testimonial: TestimonialSection = {
       
       Customer Operations and CX Leader | ex-Lyft, Sonder, Deloitte
       Strategic Advisor, MDisrupt`,
-      text: `For any team looking for a highly technical, business-savvy leader who thrives at the intersection of strategy,operations, and technology, Enio is your person. I have no doubt he will make a tremendous impact wherever he goes next.
+      text: `For any team looking for a highly technical, business-savvy leader who thrives at the intersection of strategy, operations, and technology, Enio is your person. I have no doubt he will make a tremendous impact wherever he goes next.
        
        Enio possesses a deep technical acumen that goes far beyond traditional operations—he understands system architecture at a level that enables him to not just integrate tools, but to design and build scalable, high-impact solutions from the ground up. 
        
@@ -250,7 +250,7 @@ export const testimonial: TestimonialSection = {
       name: `Julie Motlagh
 
       Professional Services Executive | Customer Success
-      Global Head of Customer Success, OnFrontiers`,
+      Global Head of Customer Success, OnFrontiers,
       text: `Whether it was building automated workflows, creating insightful dashboards, or optimizing data for decision-making, Enio was always several steps ahead, ensuring everything ran smoothly and strategically. 
       
       Beyond his technical prowess, Enio has a gift for building relationships and fostering collaboration. Enio isn't just exceptional at what he does—he elevates everyone around him. His strategic thinking, operational expertise, and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
@@ -262,7 +262,7 @@ export const testimonial: TestimonialSection = {
     {
       name: `Chiara Cokieng
 
-      LinkedIn Influencer, Operations leader and People manager
+      LinkedIn Influencer, Operations leader, and People manager
       Founder & Coach, Brave New Path`,
       text: `When we hired Enio, we saw his qualities as a great individual contributor as Research Manager — super sharp and smart with the research, confident and charismatic with the clients,all while being idealistic, realistic, and hardworking with the business. 
       
