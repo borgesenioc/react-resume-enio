@@ -250,7 +250,7 @@ export const testimonial: TestimonialSection = {
       name: `Julie Motlagh
 
       Professional Services Executive | Customer Success
-      Global Head of Customer Success, OnFrontiers,
+      Global Head of Customer Success, OnFrontiers`,
       text: `Whether it was building automated workflows, creating insightful dashboards, or optimizing data for decision-making, Enio was always several steps ahead, ensuring everything ran smoothly and strategically. 
       
       Beyond his technical prowess, Enio has a gift for building relationships and fostering collaboration. Enio isn't just exceptional at what he does—he elevates everyone around him. His strategic thinking, operational expertise, and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
