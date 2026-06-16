@@ -1,17 +1,18 @@
 import {FC, memo} from 'react';
 
+import {SectionId} from '../../data/data';
+import Section from '../Layout/Section';
+
 export const ArticlesSection: FC = memo(() => {
   return (
-    <section id="Articles" className="py-20 px-4 bg-white text-gray-800">
+    <Section className="bg-white text-gray-800" sectionId={SectionId.Articles}>
       <div className="max-w-4xl mx-auto">
-        <a href="#Articles">
-          <h2 className="text-4xl font-bold mb-8 text-gray-900">Articles</h2>
-        </a>
+        <h2 className="text-4xl font-bold mb-8 text-gray-900">Articles</h2>
         <div className="grid gap-8">
           <p className="text-gray-600 italic">Articles coming soon...</p>
         </div>
       </div>
-    </section>
+    </Section>
   );
 });
 
