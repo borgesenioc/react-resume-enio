@@ -232,6 +232,14 @@ export const experience: TimelineItem[] = [
  */
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
+  /**
+   * Testimonial photos are hosted locally — LinkedIn CDN URLs are signed and expire (they 403 after a few weeks).
+   * To add a photo:
+   *   1. Save the file to src/images/testimonials/ (e.g. yohan-bobcombe.jpg).
+   *   2. Import it at the top of this file:  import yohanPhoto from '../images/testimonials/yohan-bobcombe.jpg';
+   *   3. Set `image: yohanPhoto.src` on the matching testimonial below.
+   * Until a photo is set, an initials avatar is shown automatically.
+   */
   testimonials: [
     {
       name: `Yohan Bobcombe
@@ -244,8 +252,7 @@ export const testimonial: TestimonialSection = {
        
        His deep understanding of technical architecture, automation, and integrations made him instrumental in optimizing our operations. Whether it was streamlining workflows, implementing cost-efficient solutions, or bridging the gap between operations and product, he consistently delivered results that improved efficiency and bottom-line impact.
        `,
-      image:
-        'https://media.licdn.com/dms/image/v2/D5603AQH-aKgELzy8pQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707170313673?e=1747267200&v=beta&t=A5GvvriSZ60QQ4oOUhLOwF49FQwgd2R_sY_eWmCoLUU',
+      // To show a photo: add it to src/images/testimonials/ and set `image: <import>.src` (see note above the array).
     },
     {
       name: `Julie Motlagh
@@ -257,8 +264,7 @@ export const testimonial: TestimonialSection = {
       Beyond his technical prowess, Enio has a gift for building relationships and fostering collaboration. Enio isn't just exceptional at what he does—he elevates everyone around him. His strategic thinking, operational expertise, and natural ability to lead have left a lasting impact on OnFrontiers and on me personally. 
       
       Anyone who has the opportunity to work with him will quickly understand what a true asset he is to any team or organization.`,
-      image:
-        'https://media.licdn.com/dms/image/v2/D4E03AQEutSEdjnoz8Q/profile-displayphoto-shrink_800_800/B4EZRn_GikGYAc-/0/1736911382968?e=1745452800&v=beta&t=IDk-N4kAjetRQCGLIg4vMXTTwG1tXoWF9nehss52jhY',
+      // To show a photo: add it to src/images/testimonials/ and set `image: <import>.src` (see note above the array).
     },
     {
       name: `Chiara Cokieng
@@ -270,8 +276,7 @@ export const testimonial: TestimonialSection = {
       Even so, I've always known that Enio will be my successor as Director of Research. So when I moved to the Product team and Enio courageously and willingly stepped up to leadership and management, I wasn't surprised. 
         
       I would definitely love to work with Enio again in future entrepreneurial adventures. I'm already excited!`,
-      image:
-        'https://media.licdn.com/dms/image/v2/C5103AQH6SKzkzdqW3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1570812235629?e=1743638400&v=beta&t=8EmH1pspyCoUxgwRGvLE-xIw-5SQ6V7zT27XdZYQn8k',
+      // To show a photo: add it to src/images/testimonials/ and set `image: <import>.src` (see note above the array).
     },
     {
       name: `Sabyasachi Gupta
@@ -283,8 +288,7 @@ export const testimonial: TestimonialSection = {
       I was directly reporting to him for three years out of the four years I spent at OnFrontiers. Enio is a seasoned SaaS operations professional who knows how to manage, run and grow a team. His attention to detail, customer awareness, and ability to soak pressure while extracting the best out of his team are what make him a great leader. 
       
       Amongst other things, he gives freedom to his team members to experiment, make mistakes, and learn from them without ever micro-managing them. This is one of the primary reasons why I enjoyed working with him. Enio would be a great addition to any team that is looking for its next leader!`,
-      image:
-        'https://media.licdn.com/dms/image/v2/D4D03AQFNWiYEycE7Lw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685962416510?e=1743638400&v=beta&t=nLG3ecy-TEy1boKde_wZlISzV0baT6AxL-XOrQs7r3s',
+      // To show a photo: add it to src/images/testimonials/ and set `image: <import>.src` (see note above the array).
     },
   ],
 };

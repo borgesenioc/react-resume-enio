@@ -119,27 +119,54 @@ const Testimonials: FC = memo(() => {
   );
 });
 
+// Derive up-to-two-letter initials from the first line of a (multi-line) name.
+const getInitials = (name: string): string =>
+  name
+    .trim()
+    .split('\n')[0]
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(word => word[0]?.toUpperCase() ?? '')
+    .join('');
+
 const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
-  ({testimonial: {text, name, image}, isActive}) => (
-    <div
-      className={classNames(
-        'whitespace-pre-line flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-3 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
-        isActive ? 'opacity-100' : 'opacity-0',
-      )}>
-      {image ? (
+  ({testimonial: {text, name, image}, isActive}) => {
+    // Fall back to an initials avatar when there's no image or it fails to load
+    // (e.g. an expired CDN URL), so a broken image is never shown.
+    const [imageFailed, setImageFailed] = useState(false);
+    const handleImageError = useCallback(() => setImageFailed(true), []);
+    const label = useMemo(() => name.trim().split('\n')[0].trim(), [name]);
+
+    return (
+      <div
+        className={classNames(
+          'whitespace-pre-line flex w-full shrink-0 snap-start snap-always flex-col items-start gap-y-3 p-2 transition-opacity duration-1000 sm:flex-row sm:gap-x-6',
+          isActive ? 'opacity-100' : 'opacity-0',
+        )}>
         <div className="relative h-14 w-14 shrink-0 sm:h-16 sm:w-16">
           <QuoteIcon className="absolute -left-2 -top-2 h-4 w-4 stroke-black text-black" />
-          <img className="h-full w-full rounded-full" src={image} />
+          {image && !imageFailed ? (
+            <img
+              alt={label}
+              className="h-full w-full rounded-full object-cover"
+              onError={handleImageError}
+              src={image}
+            />
+          ) : (
+            <div className="flex h-full w-full items-center justify-center rounded-full bg-neutral-700 text-sm font-bold text-white sm:text-base">
+              {getInitials(name)}
+            </div>
+          )}
         </div>
-      ) : (
-        <QuoteIcon className="h-5 w-5 shrink-0 text-black sm:h-8 sm:w-8" />
-      )}
-      <div className="flex flex-col gap-y-4">
-        <p className="whitespace-pre-line prose prose-sm font-medium italic text-black sm:prose-base">{text}</p>
-        <p className="text-xs font-bold text-gray-900 sm:text-sm md:text-base lg:text-lg">-- {name}</p>
+        <div className="flex flex-col gap-y-4">
+          <p className="whitespace-pre-line prose prose-sm font-medium italic text-black sm:prose-base">{text}</p>
+          <p className="text-xs font-bold text-gray-900 sm:text-sm md:text-base lg:text-lg">-- {name}</p>
+        </div>
       </div>
-    </div>
-  ),
+    );
+  },
 );
 
 export default Testimonials;
