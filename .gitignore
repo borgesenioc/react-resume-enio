@@ -35,3 +35,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# AI tool state (keep shared config tracked via negations below)
+.claude/
+.codex/
+.cline/
+.gemini/
+!.gemini/settings.json
+.superpowers/
