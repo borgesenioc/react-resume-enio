@@ -16,7 +16,7 @@ Canonical instructions for all AI coding tools working in this repo (Claude Code
 - `yarn build` - typecheck + production build
 - `yarn lint` - autofix locally: `prettier --write` + `eslint --fix`
 - `yarn lint:check` - check-only (used by CI): `prettier --check` + `eslint --max-warnings=0`
-- `yarn typecheck` - `tsc --build`
+- `yarn typecheck` - `tsc --build --verbose`
 - `yarn compile` - typecheck alias used by build/dev
 
 Run `yarn lint && yarn compile` before every commit.
